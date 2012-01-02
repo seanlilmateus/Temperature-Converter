@@ -11,31 +11,31 @@ class AppDelegate < NSObject
     
 	def initialize
 		NSValueTransformer.setValueTransformer CentigradeValueTransformer.new, 
-																	forName: "centrigradeFromKelvin"
+					      forName: "centrigradeFromKelvin"
         
 		NSValueTransformer.setValueTransformer FahrenheitValueTransformer.new, 
-																	forName: "fahrenheitFromKelvin"
+					      forName: "fahrenheitFromKelvin"
         
 		NSValueTransformer.setValueTransformer RankineValueTransformer.new, 
-																	forName: "rankineFromKelvin"
+					      forName: "rankineFromKelvin"
 	end
     
 	def applicationDidFinishLaunching(a_notification)
 		centrigrade_from_kelvin = NSValueTransformer.valueTransformerForName("centrigradeFromKelvin")
 		kelvinWaterBoilingPoint = centrigrade_from_kelvin.reverseTransformedValue(100)
-		defaults = {last_temperature:kelvinWaterBoilingPoint}
+		defaults = { last_temperature:kelvinWaterBoilingPoint }
 		NSUserDefaults.standardUserDefaults.registerDefaults(defaults)
 	end
     
 	def awakeFromNib
 		@window.title = "Temperature Converter"
 		# programmatically binding
-		binding_options = {NSValueTransformerName: "rankineFromKelvin",
-											 NSContinuouslyUpdatesValueBindingOption => true}
+		binding_options = { NSValueTransformerName: "rankineFromKelvin",
+				    NSContinuouslyUpdatesValueBindingOption => true }
 		@rankine_form_cell.bind "value",
-												toObject: @sharedUserDefaultsController,
-										 withKeyPath: "values.last_temperature",
-												 options: binding_options
+			       toObject: @sharedUserDefaultsController,
+			    withKeyPath: "values.last_temperature",
+				options: binding_options
 	end	
 end
 
