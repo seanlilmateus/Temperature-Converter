@@ -30,7 +30,7 @@ class AppDelegate < NSObject
 	def awakeFromNib
 	    @window.title = "Temperature Converter"
 	    # programmatically binding
-	    binding_options = { NSValueTransformerName: "rankineFromKelvin", NSContinuouslyUpdatesValueBindingOption => true }
+	    binding_options = { 'NSValueTransformerName' => "rankineFromKelvin", NSContinuouslyUpdatesValueBindingOption => true }
 	    @rankine_form_cell.bind "value",
 			   toObject: @sharedUserDefaultsController,
 			withKeyPath: "values.last_temperature",
