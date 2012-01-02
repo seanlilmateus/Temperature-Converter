@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+NSHumanReadableCopyright = "Mateus Armando Kimbango ® 2011";
+CFBundleName = "Temperature Converter";
+CFBundleVersion = "0.75";

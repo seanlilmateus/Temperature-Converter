@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F853E16137DBE7100E0B9A6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F853E15137DBE7100E0B9A6 /* Cocoa.framework */; };
+		4F853E1F137DBE7100E0B9A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F853E1D137DBE7100E0B9A6 /* InfoPlist.strings */; };
+		4F853E22137DBE7100E0B9A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F853E21137DBE7100E0B9A6 /* main.m */; };
+		4F853E26137DBE7100E0B9A6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F853E24137DBE7100E0B9A6 /* MainMenu.xib */; };
+		4F853E29137DBE7100E0B9A6 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F853E28137DBE7100E0B9A6 /* rb_main.rb */; };
+		4F853E2B137DBE7200E0B9A6 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F853E2A137DBE7200E0B9A6 /* AppDelegate.rb */; };
+		4F853E35137DBEB200E0B9A6 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F853E34137DBEB200E0B9A6 /* MacRuby.framework */; };
+		4F853E39137DC15000E0B9A6 /* CentigradeValueTransformer.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F853E38137DC15000E0B9A6 /* CentigradeValueTransformer.rb */; };
+		4F853E3B137DC56200E0B9A6 /* FahrenheitValueTransformer.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F853E3A137DC56200E0B9A6 /* FahrenheitValueTransformer.rb */; };
+		4F853E3D137DC72F00E0B9A6 /* RankineValueTransformer.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F853E3C137DC72F00E0B9A6 /* RankineValueTransformer.rb */; };
+		4FF7198C14B1B32F008A8053 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4FF7198B14B1B32F008A8053 /* icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F79FE0114B14C0E0090F04A /* TemperatureConverter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TemperatureConverter.entitlements; sourceTree = "<group>"; };
+		4F853E11137DBE7100E0B9A6 /* TemperatureConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F853E15137DBE7100E0B9A6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4F853E1C137DBE7100E0B9A6 /* TemperatureConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TemperatureConverter-Info.plist"; sourceTree = "<group>"; };
+		4F853E1E137DBE7100E0B9A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F853E20137DBE7100E0B9A6 /* TemperatureConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TemperatureConverter-Prefix.pch"; sourceTree = "<group>"; };
+		4F853E21137DBE7100E0B9A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F853E25137DBE7100E0B9A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4F853E28137DBE7100E0B9A6 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		4F853E2A137DBE7200E0B9A6 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		4F853E34137DBEB200E0B9A6 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		4F853E38137DC15000E0B9A6 /* CentigradeValueTransformer.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = CentigradeValueTransformer.rb; path = Classes/CentigradeValueTransformer.rb; sourceTree = "<group>"; };
+		4F853E3A137DC56200E0B9A6 /* FahrenheitValueTransformer.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = FahrenheitValueTransformer.rb; path = Classes/FahrenheitValueTransformer.rb; sourceTree = "<group>"; };
+		4F853E3C137DC72F00E0B9A6 /* RankineValueTransformer.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = RankineValueTransformer.rb; path = Classes/RankineValueTransformer.rb; sourceTree = "<group>"; };
+		4FF7198B14B1B32F008A8053 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F853E0E137DBE7100E0B9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F853E35137DBEB200E0B9A6 /* MacRuby.framework in Frameworks */,
+				4F853E16137DBE7100E0B9A6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F853E06137DBE7000E0B9A6 = {
+			isa = PBXGroup;
+			children = (
+				4FF7198B14B1B32F008A8053 /* icon.icns */,
+				4F853E1A137DBE7100E0B9A6 /* TemperatureConverter */,
+				4F853E14137DBE7100E0B9A6 /* Frameworks */,
+				4F853E12137DBE7100E0B9A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F853E12137DBE7100E0B9A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F853E11137DBE7100E0B9A6 /* TemperatureConverter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F853E14137DBE7100E0B9A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F853E34137DBEB200E0B9A6 /* MacRuby.framework */,
+				4F853E15137DBE7100E0B9A6 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F853E1A137DBE7100E0B9A6 /* TemperatureConverter */ = {
+			isa = PBXGroup;
+			children = (
+				4F79FE0114B14C0E0090F04A /* TemperatureConverter.entitlements */,
+				4F853E37137DC12B00E0B9A6 /* Classes */,
+				4F853E2A137DBE7200E0B9A6 /* AppDelegate.rb */,
+				4F853E23137DBE7100E0B9A6 /* Resources */,
+				4F853E27137DBE7100E0B9A6 /* Other Sources */,
+				4F853E1B137DBE7100E0B9A6 /* Supporting Files */,
+			);
+			path = TemperatureConverter;
+			sourceTree = "<group>";
+		};
+		4F853E1B137DBE7100E0B9A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F853E1C137DBE7100E0B9A6 /* TemperatureConverter-Info.plist */,
+				4F853E1D137DBE7100E0B9A6 /* InfoPlist.strings */,
+				4F853E20137DBE7100E0B9A6 /* TemperatureConverter-Prefix.pch */,
+				4F853E21137DBE7100E0B9A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F853E23137DBE7100E0B9A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F853E24137DBE7100E0B9A6 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4F853E27137DBE7100E0B9A6 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4F853E28137DBE7100E0B9A6 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		4F853E37137DC12B00E0B9A6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4F853E38137DC15000E0B9A6 /* CentigradeValueTransformer.rb */,
+				4F853E3A137DC56200E0B9A6 /* FahrenheitValueTransformer.rb */,
+				4F853E3C137DC72F00E0B9A6 /* RankineValueTransformer.rb */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		4F853E19137DBE7100E0B9A6 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 4F853E31137DBE7200E0B9A6 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		4F853E10137DBE7100E0B9A6 /* TemperatureConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F853E2E137DBE7200E0B9A6 /* Build configuration list for PBXNativeTarget "TemperatureConverter" */;
+			buildPhases = (
+				4F853E0D137DBE7100E0B9A6 /* Sources */,
+				4F853E0E137DBE7100E0B9A6 /* Frameworks */,
+				4F853E0F137DBE7100E0B9A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemperatureConverter;
+			productName = TemperatureConverter;
+			productReference = 4F853E11137DBE7100E0B9A6 /* TemperatureConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F853E08137DBE7000E0B9A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Sean Coorp. INC";
+			};
+			buildConfigurationList = 4F853E0B137DBE7000E0B9A6 /* Build configuration list for PBXProject "TemperatureConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+			);
+			mainGroup = 4F853E06137DBE7000E0B9A6;
+			productRefGroup = 4F853E12137DBE7100E0B9A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F853E10137DBE7100E0B9A6 /* TemperatureConverter */,
+				4F853E19137DBE7100E0B9A6 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F853E0F137DBE7100E0B9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F853E1F137DBE7100E0B9A6 /* InfoPlist.strings in Resources */,
+				4F853E26137DBE7100E0B9A6 /* MainMenu.xib in Resources */,
+				4F853E29137DBE7100E0B9A6 /* rb_main.rb in Resources */,
+				4F853E2B137DBE7200E0B9A6 /* AppDelegate.rb in Resources */,
+				4F853E39137DC15000E0B9A6 /* CentigradeValueTransformer.rb in Resources */,
+				4F853E3B137DC56200E0B9A6 /* FahrenheitValueTransformer.rb in Resources */,
+				4F853E3D137DC72F00E0B9A6 /* RankineValueTransformer.rb in Resources */,
+				4FF7198C14B1B32F008A8053 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F853E0D137DBE7100E0B9A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F853E22137DBE7100E0B9A6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F853E1D137DBE7100E0B9A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F853E1E137DBE7100E0B9A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4F853E24137DBE7100E0B9A6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F853E25137DBE7100E0B9A6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F853E2C137DBE7200E0B9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F853E2D137DBE7200E0B9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F853E2F137DBE7200E0B9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				CODE_SIGN_ENTITLEMENTS = TemperatureConverter/TemperatureConverter.entitlements;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TemperatureConverter/TemperatureConverter-Prefix.pch";
+				INFOPLIST_FILE = "TemperatureConverter/TemperatureConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4F853E30137DBE7200E0B9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				CODE_SIGN_ENTITLEMENTS = TemperatureConverter/TemperatureConverter.entitlements;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TemperatureConverter/TemperatureConverter-Prefix.pch";
+				INFOPLIST_FILE = "TemperatureConverter/TemperatureConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4F853E32137DBE7200E0B9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4F853E33137DBE7200E0B9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F853E0B137DBE7000E0B9A6 /* Build configuration list for PBXProject "TemperatureConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F853E2C137DBE7200E0B9A6 /* Debug */,
+				4F853E2D137DBE7200E0B9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F853E2E137DBE7200E0B9A6 /* Build configuration list for PBXNativeTarget "TemperatureConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F853E2F137DBE7200E0B9A6 /* Debug */,
+				4F853E30137DBE7200E0B9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F853E31137DBE7200E0B9A6 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F853E32137DBE7200E0B9A6 /* Debug */,
+				4F853E33137DBE7200E0B9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F853E08137DBE7000E0B9A6 /* Project object */;
+}
