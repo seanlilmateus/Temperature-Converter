@@ -2,8 +2,8 @@
 #  CentigradeValueTransformer.rb
 #  TemperatureConverter
 #
-#  Created by Mateus Kimbango Armando on 13.05.11.
-#  Copyright 2011 Sean Coorp. INC. All rights reserved.
+#  Created by Sean Mateus  on 13.05.11.
+#  Copyright 2011 Sean Mateus.All rights reserved.
 #
 class CentigradeValueTransformer < NSValueTransformer
     def transformedValueClass
