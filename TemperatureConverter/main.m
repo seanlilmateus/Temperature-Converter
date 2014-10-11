@@ -2,7 +2,7 @@
 //  main.m
 //  TemperatureConverter
 //
-//  Created by Mateus Kimbango Armando on 13.05.11.
+//  Created by Mateus Armando on 13.05.11.
 //  Copyright 2011 Sean Coorp. INC. All rights reserved.
 //
 
